@@ -16,8 +16,8 @@ Header h1 {
 }
 
 header:hover {
-    background-color: green;
-    color: red
+    background-color: purple;
+    color: white;
 }
 
 .Me img {
