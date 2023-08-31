@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+}
+
+Header {
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+}
+
+Header h1 {
+    padding: 1vw;
+    text-align: center;
+}
+
+header:hover {
+    background-color: green;
+    color: red
+}
+
+.Me img {
+    width: 60vw;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
