@@ -8,10 +8,11 @@ Header {
     border-radius: 15px;
     width: 40%;
     margin: auto;
+    margin-bottom: 2vw;
 }
 
-Header h1 {
-    padding: 1vw;
+Header a {
+    padding: 2vw;
     text-align: center;
 }
 

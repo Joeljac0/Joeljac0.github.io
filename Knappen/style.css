@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to bottom, #fff, #e655de)
+}
+
+div{
+    background-color: #fff;
+    width: 80%;
+    margin: 40px;
+    height: 400px;
+    border-radius: 30px;
+    /*width: 3px;*/
+}
+
+h3{
+    margin: 30px;
+}
+
+#knapp{
+    margin-left: 20px;
+}
+
+button{
+    width: 50px;
+    margin-left: 20px;
+}
+
+#svar{
+    margin-left: 20px;
+}
