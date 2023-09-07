@@ -1,28 +1,41 @@
 body {
-    background-color: blue;
+    background-color: purple;
 }
 
 Header {
-    background-color: yellow;
-    color: black;
-    border-radius: 15px;
-    width: 40%;
+    width: 50%;
+    border-radius: 10px;
     margin: auto;
     margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
-Header a {
-    padding: 2vw;
+.box {
+    background-color: whitesmoke;
+    width: 35%;
+    color: black;
+    margin-bottom: 0.5vw;
+    margin-top: 0.5vw;
+    border-radius: 5px;
     text-align: center;
 }
 
-header:hover {
-    background-color: purple;
-    color: white;
+.box a {
+    padding: 0.7vw;
+    text-decoration: none;
+}
+
+.box:hover {
+    background-color: #570661;
+
+}
+.box a:hover {
+    color: #0cd4d9;
 }
 
 .Me img {
-    width: 60vw;
+    width: 40vw;
     display: block;
     margin: auto;
     border-radius: 10px;
