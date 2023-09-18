@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(90, 2, 144);
+}
+
+img{
+    width: 10vw;
+}
+
+#p_joke{
+    background-color: white;
+    padding: 0.5vw;
+    border: 1px black solid;
+}
