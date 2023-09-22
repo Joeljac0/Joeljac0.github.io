@@ -50,5 +50,5 @@ function getJoke(e){
     const t_adress = "https://v2.jokeapi.dev/joke/Dark,Spooky?type=single"
 
     let joke_objekt = new JokeHandlerRequest(t_adress)
-    p_skemt.innerHTML = joke_objekt.getJoke()
+    p_joke.innerHTML = joke_objekt.getJoke()
 }

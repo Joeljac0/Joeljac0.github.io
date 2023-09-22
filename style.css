@@ -11,7 +11,11 @@ Header {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.box {
+
+
+Header a {
+    padding: 0.7vw;
+    text-decoration: none;
     background-color: whitesmoke;
     width: 35%;
     color: black;
@@ -21,17 +25,9 @@ Header {
     text-align: center;
 }
 
-.box a {
-    padding: 0.7vw;
-    text-decoration: none;
-}
-
-.box:hover {
-    background-color: #570661;
-
-}
-.box a:hover {
+Header a:hover {
     color: #0cd4d9;
+    background-color: #570661;
 }
 
 .Me img {
