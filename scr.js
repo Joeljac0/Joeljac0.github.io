@@ -27,8 +27,8 @@ function balls() {
         setTimeout(function () {
             document.getElementById("head").style.backgroundColor = "black";
             balls(); // Repeat the function
-        }, 100);
-    }, 100);
+        }, 1000);
+    }, 1000);
 }
 
 // Call the function to start the infinite repetition
