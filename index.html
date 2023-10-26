@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ballin with no ball</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="scr.js" defer></script>
 </head>
-<body>
+<body id="head">
     <!--Där länkar till uppgifter läggs-->
     <Header>       
         <a href="Knappen/knappen.html">Knapp</a>
@@ -18,7 +19,11 @@
 
     <!--Bild-->
     <div class="Me">
-        <img src="WIN_20230228_08_55_03_Pro.jpg" alt="Jool">
+        <img onclick="changeImage()" id="imgClickAndChange"/>
     </div>
+
+    <p id="yes">
+        SEIZURE WARNING!!
+    </p>
 </body>
 </html>

@@ -1,5 +1,8 @@
 body {
-    background-color: purple;
+    background-color: rgb(48, 2, 48);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
 }
 
 Header {
@@ -32,7 +35,22 @@ Header a:hover {
 
 .Me img {
     width: 40vw;
+    height: 20vw;
     display: block;
     margin: auto;
     border-radius: 10px;
+}
+
+#yes {
+    animation: blink 0.3s infinite alternate;
+    font-size: 5vw;
+    color: red;
+    text-shadow: 0 0 7px red;
+    text-align: center;
+}
+
+@keyframes blink {
+    0% {opacity: 0;}
+    49% {opacity: 0;}
+    50% {opacity: 1;}
 }
