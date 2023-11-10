@@ -21,7 +21,7 @@ function changeImage() {
     }
 }
 
-function balls() {
+/*function balls() {
     setTimeout(function () {
         document.getElementById("head").style.backgroundColor = "white";
         setTimeout(function () {
@@ -32,4 +32,37 @@ function balls() {
 }
 
 // Call the function to start the infinite repetition
-balls();
+balls();*/
+
+document.getElementById("yes").innerText = ""
+
+let t = 1
+let b = 1
+
+function Normal() {
+    if (t == 1){
+        b = 1
+        document.getElementById("yes").innerText = "CLICK PICTURE!!"
+        function balls() {
+            setTimeout(function () {
+                document.getElementById("head").style.backgroundColor = "white"
+                setTimeout(function () {
+                    document.getElementById("head").style.backgroundColor = "black"
+                    balls() // Repeat the function
+                }, 1000)
+            }, 1000)
+        }
+        
+        // Call the function to start the infinite repetition
+        balls()
+
+        t = 2
+    }
+    else if (t == 2){
+        b = 2
+        document.getElementById("yes").innerText = ""
+        document.getElementById("head").style.backgroundColor = "purple"
+
+        t = 1
+    }
+}
