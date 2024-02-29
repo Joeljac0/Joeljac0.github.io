@@ -42,7 +42,7 @@ Header a:hover {
 }
 
 #yes {
-    animation: blink 3s infinite alternate;
+    animation: blink 2s infinite alternate;
     font-size: 5vw;
     color: red;
     text-shadow: 0 0 7px red;
